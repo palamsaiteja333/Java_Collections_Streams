@@ -10,11 +10,39 @@ public class ListPerformanceEvaluation {
 		
 		for(int i=0; i<number; i++) {
 			list.add(i);
-		}
-		
+		}	
+	}
+
+	public static void addElementsToBeginning(List<Integer> list,
+			int numberOfElementsToAdd) {
+
 		
 	}
 
+	public static void addElementsToMiddle(List<Integer> list,
+			int numberOfElementsToAdd) {
+	}
+
+	public static void addElementsToEnd(List<Integer> list, int numberOfElementsToAdd) {
+			
+	}
+
+	public static void removeElementsFromBeginning(List<Integer> list,
+			int numberOfElementsToRemove) {
+		
+	}
+
+	public static void removeElementsFromMiddle(List<Integer> list,
+			int numberOfElementsToRemove) {
+			
+	}
+
+	public static void removeElementsFromEnd(List<Integer> list,
+			int numberOfElementsToRemove) {
+			
+	}
+	
+	
 	public static void main(String[] args) {
 		
 		
@@ -23,6 +51,8 @@ public class ListPerformanceEvaluation {
 		
 		addIntegers(arrayList, 100);
 		addIntegers(linkedList, 100);
+		
+		
 		
 		
 	}
